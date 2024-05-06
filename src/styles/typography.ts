@@ -1,0 +1,50 @@
+interface ITypography {
+  FONT_FAMILY_PRIMARY: string
+  FONT_FAMILY_SECONDARY: string
+  FONT_WEIGHT_NORMAL: string
+  FONT_WEIGHT_BOLD: string
+  FONT_WEIGHT_100: number
+  FONT_WEIGHT_200: number
+  FONT_WEIGHT_300: number
+  FONT_WEIGHT_400: number
+  FONT_WEIGHT_500: number
+  FONT_WEIGHT_600: number
+  FONT_WEIGHT_700: number
+  FONT_WEIGHT_800: number
+  FONT_WEIGHT_900: number
+  FONT_SIZE_12: string
+  FONT_SIZE_14: string
+  FONT_SIZE_16: string
+  FONT_SIZE_20: string
+  LINE_HEIGHT_12: string
+  LINE_HEIGHT_16: string
+  LINE_HEIGHT_24: string
+  LINE_HEIGHT_36: string
+  LINE_HEIGHT_48: string
+}
+
+export const typography: ITypography = {
+  FONT_FAMILY_PRIMARY: 'Montserrat',
+  FONT_FAMILY_SECONDARY: 'Averta',
+
+  FONT_WEIGHT_NORMAL: 'normal',
+  FONT_WEIGHT_BOLD: 'bold',
+  FONT_WEIGHT_100: 100,
+  FONT_WEIGHT_200: 200,
+  FONT_WEIGHT_300: 300,
+  FONT_WEIGHT_400: 400,
+  FONT_WEIGHT_500: 500,
+  FONT_WEIGHT_600: 600,
+  FONT_WEIGHT_700: 700,
+  FONT_WEIGHT_800: 800,
+  FONT_WEIGHT_900: 900,
+  FONT_SIZE_12: '12px',
+  FONT_SIZE_14: '14px',
+  FONT_SIZE_16: '16px',
+  FONT_SIZE_20: '20px',
+  LINE_HEIGHT_12: '12px',
+  LINE_HEIGHT_16: '16px',
+  LINE_HEIGHT_24: '24px',
+  LINE_HEIGHT_36: '36px',
+  LINE_HEIGHT_48: '48px',
+}
